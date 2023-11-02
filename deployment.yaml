@@ -19,4 +19,4 @@ spec:
           image: 277269414266.dkr.ecr.us-east-1.amazonaws.com/fanfare-backend-test:1.1
           imagePullPolicy: Always
           ports:
-            - containerPort: 3000
+            - containerPort: 8080
