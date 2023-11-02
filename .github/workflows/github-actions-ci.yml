@@ -41,7 +41,7 @@ jobs:
     - name: Update kube config
       run: aws eks update-kubeconfig --name fanfare-backend-test
     
-    - name: Deploy to EKS
+    - name: Deployment to EKS
       run: |
         kubectl apply -f deployment.yaml
         kubectl apply -f service.yaml
