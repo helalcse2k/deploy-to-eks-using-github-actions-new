@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fanfare-backend-test
+  labels:
+    app: fanfare-backend-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fanfare-backend-test
+  template:
+    metadata:
+      labels:
+        app: fanfare-backend-test
+    spec:
+      containers:
+        - name: fanfare-backend-test
+          image: 277269414266.dkr.ecr.us-east-1.amazonaws.com/fanfare-backend-test:1.1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
