@@ -19,13 +19,13 @@ const ENV = 'DEV';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from Fanfare Bangladesh Ltd, this was awesome !! ';
+  const msg = 'Hello from Fanfare API !!';
   res.send(getPage(msg));
 });
 
 app.get('/test', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from /test Node 14-alpine!';
+  const msg = 'Hello from Fanfare Backend !!';
   res.send(getPage(msg));
 });
 

@@ -1,8 +1,8 @@
 {
-  "name": "aws_pipeline_web_app",
+  "name": "aws_pipeline_fanfare_backend_app",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "author": "Ivan Polovyi <polovyiivan@gmail.com>",
+  "description": "Fanfare backend test on Docker",
+  "author": "Mohammed Helal Uddin <helalcse2k@gmail.com>",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
