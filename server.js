@@ -19,7 +19,7 @@ const ENV = 'DEV';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from Fanfare API !!';
+  const msg = 'Hello from Banani !!';
   res.send(getPage(msg));
 });
 
