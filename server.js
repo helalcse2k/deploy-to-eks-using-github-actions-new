@@ -19,7 +19,7 @@ const ENV = 'DEV';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from Banani !!';
+  const msg = 'Hello from Banani DOHS';
   res.send(getPage(msg));
 });
 
