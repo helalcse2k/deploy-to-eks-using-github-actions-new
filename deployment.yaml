@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: fanfare-backend-test
-          image: 277269414266.dkr.ecr.us-east-1.amazonaws.com/fanfare-backend-test:1.1
+          image: 277269414266.dkr.ecr.us-east-1.amazonaws.com/fanfare-backend-test:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
